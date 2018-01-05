@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_camera2"
+
+            android:title="Uusi ostoslista" />
+
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="Ruokalajit" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Ruokavaliot" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Kauppa" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="Viikon Suositukset" />
+
+    </group>T
+
+    <item android:title="Sosiaalinen">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Kaverit" />
+        </menu>
+    </item>
+
+</menu>
